@@ -1,0 +1,85 @@
+{
+    "name": "data_wrangling_result",
+    "title": "Data Wrangling Challenge Result",
+    "description": "A script to get normalized CSV data file of Road Safety Facts and Figures in the EU.",
+    "version": "1.0",
+    "keywords": ["Us", "Population"],
+    "licenses": [{
+        "path": "",
+        "title": "",
+        "name": ""
+    }],
+    "sources": [{
+        "title": "Road safety in Europe",
+        "path": "https://en.wikipedia.org/wiki/Road_safety_in_Europe"
+    }],
+    "contributors":[ {
+        "title": "Daniel Njoku",
+        "email": "njokdan@gmail.com",
+        "role": "author"
+    }],
+    "resources": [
+      {
+        "path": "data.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "Country",
+              "type": "string",
+              "format": "default",
+              "title": "Country"
+            },
+            {
+              "name": "Year",
+              "type": "string",
+              "format": "default",
+              "title": "Year"
+            },
+            {
+              "name": "Area",
+              "type": "string",
+              "format": "default",
+              "title": "Area"
+            },
+            {
+              "name": "Population",
+              "type": "string",
+              "format": "default",
+              "title": "Population"
+            },
+            {
+              "name": "GDP_per_capita",
+              "type": "string",
+              "format": "default",
+              "title": "GDP per capita"
+            },
+            {
+              "name": "Population_density",
+              "type": "string",
+              "format": "default",
+              "title": "Population density"
+            },
+            {
+              "name": "Vehicle_ownership",
+              "type": "string",
+              "format": "default",
+              "title": "Vehicle ownership"
+            },
+            {
+              "name": "Total_road_deaths",
+              "type": "string",
+              "format": "default",
+              "title": "Total road deaths"
+            },
+            {
+              "name": "Road_deaths_per_Million_Inhabitants",
+              "type": "string",
+              "format": "default",
+              "title": "Road deaths per Million Inhabitants"
+            }
+          ]
+        }
+      }
+    ]
+  }
