@@ -43,11 +43,11 @@ To use this project locally you must have [nodejs](https://nodejs.org/en/downloa
 ## References ##
 
 ### Get European Union Road Safety Facts and Figures ###
-Located at datatopian_data_wrangling_excercise/index.js, this scripts scraps data from the European Union Road Safety Facts and Figures table from wikipedia https://en.wikipedia.org/wiki/Road_safety_in_Europe.
+Located at [datatopian_data_wrangling_excercise/index.js], this scripts scraps data from the European Union Road Safety Facts and Figures table from wikipedia https://en.wikipedia.org/wiki/Road_safety_in_Europe.
    
 
 ## Data ##
 The script result and required result is saved and located in this sub-folder named data with the name "data.csv". The wikipedia data is saved and located in the sub-folder named data. The data is named "raw_data.csv".
 
-My Tabular Data Package is located at https://github.com/njokdan/datatopian_data_wrangling_excercise/data/datapackage.json.
+My Tabular Data Package is located at https://github.com/njokdan/datatopian_data_wrangling_excercise/blob/main/data/datapackage.json.
 
